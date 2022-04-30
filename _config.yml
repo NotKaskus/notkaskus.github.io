@@ -1,0 +1,75 @@
+title: NotKaskus # Shown in header on pages with full_logo: true
+short_logo: NotKaskus (Paul Andrew). # Shown in header on all pages by default unless full_logo: true is set
+description: > # The description for your site
+  Hobby JavaScript-Developer creating API, Bots and NodeJS Projects.
+url: https://personal-website.kaskus.repl.co/ # Site base URL
+
+source: site
+
+author:
+  name: NotKaskus
+  github: NotKaskus # GitHub username, used for GitHub icon on the top right
+  email: kaskus45@proton.me # Used for email icon on the top right
+  homepage: https://paul.is-a.dev # This links to your name in post meta
+  twitter: # Twitter username, used for Twitter Card Analytics
+
+disqus_name: # Setting this will turn on Disqus comments
+g_track_id: # Google Analytics tracking ID (e.g. UA-000000-2), setting this will turn on Google Analytics
+
+markdown: kramdown
+timezone: Asia/Manila # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+defaults: # Recommended defaults, you may set your own
+  -
+    scope:
+      path: _posts
+    values:
+      comments: true
+  -
+    scope:
+      path: pages/redirects
+    values:
+      layout: redirect
+      index: false
+      listed: false
+  -
+    scope:
+      path: pages/tags
+    values:
+      layout: tag
+      sitemap:
+        priority: 0.4
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: true
+  profile: false
+  startings: [html, head, body]
+
+rss: false # RSS feed icon on or off
+dark_mode: true # Dark mode icon
+project_card_style: modal # Choose from masonry, modal, and flat
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
