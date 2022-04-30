@@ -14,4 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the site in the jekyll/builder container
-      run: JEKYLL_ENV=production bundle exec jekyll serve --host 0.0.0.0
+      run: |
+        gem install jekyll bundle
+        JEKYLL_ENV=production bundle exec jekyll serve --host 0.0.0.0
