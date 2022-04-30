@@ -2,7 +2,7 @@ title: NotKaskus # Shown in header on pages with full_logo: true
 short_logo: NotKaskus (Paul Andrew). # Shown in header on all pages by default unless full_logo: true is set
 description: > # The description for your site
   Hobby JavaScript-Developer creating API, Bots and NodeJS Projects.
-url: notkaskus.github.io # Site base URL
+url: https://notkaskus.github.io # Site base URL
 
 source: site
 
@@ -10,7 +10,7 @@ author:
   name: NotKaskus
   github: NotKaskus # GitHub username, used for GitHub icon on the top right
   email: kaskus45@proton.me # Used for email icon on the top right
-  homepage: notkaskus.github.io # This links to your name in post meta
+  homepage: https://notkaskus.github.io # This links to your name in post meta
   twitter: # Twitter username, used for Twitter Card Analytics
 
 disqus_name: # Setting this will turn on Disqus comments
