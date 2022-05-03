@@ -26,7 +26,7 @@ logo: favicon.png
 
 # Google Analytics and Disqus comments, this setting will turn on Google Analytics and Disqus comments.
 # disqus_name: 
-# g_track_id: 
+g_track_id: G-MHF08CJFCZ
 
 ### Build settings
 markdown: kramdown
