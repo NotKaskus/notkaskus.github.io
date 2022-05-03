@@ -3,7 +3,7 @@ layout: page
 full_logo: true
 title: 
 subtitle: 
-description: {{ site.description }}
+description: Hobby JavaScript-Developer creating API, Bots and NodeJS Projects
 sitemap:
   priority: 1.0
 ---
