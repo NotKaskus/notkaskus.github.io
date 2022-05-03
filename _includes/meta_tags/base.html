@@ -1,9 +1,9 @@
 <meta charset="utf-8" /> 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link rel="canonical" href="{{ site.url }}{{ page.url | remove: "index.html" }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url | remove: "index.html" }}">
-<meta name="twitter:card" content="summary_large_image">
 <meta property="og:site_name" content="{{ site.title }}">
 
 {% if page.c_title %}
@@ -17,7 +17,6 @@
 {% if page.description %}
 <meta name="description" content="{{ page.description }}">
 <meta property="og:description" content="{{ page.description }}">
-
 {% elsif page.layout == "post" %}
 <meta name="description" content="{{ page.content | strip_html | truncatewords: 30, "" }}">
 <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 30, "" }}">
@@ -40,10 +39,8 @@
 
 {% if page.splash_img_source %}
 <meta property="og:image" content="{{ site.url }}{{ page.splash_img_source }}">
-{% endif %}
-
-{% if site.author.twitter %}
-<meta name="twitter:site" content="@{{ site.author.twitter }}">
+{% else %}
+<meta property="og:image" content="{{ site.url }}/{{ site.logo }}" />
 {% endif %}
 
 
