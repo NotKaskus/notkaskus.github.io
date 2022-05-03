@@ -1,27 +1,36 @@
-title: NotKaskus # Shown in header on pages with full_logo: true
-short_logo: NotKaskus (Paul Andrew). # Shown in header on all pages by default unless full_logo: true is set
-description: > # The description for your site
+### Welcome to Jekyll Config File
+#
+# This config file contains the config of your webpages
+# You may also want to update /config/webpack.pwa.js in case you want to generate a Progressive Web App
+
+### Webpage configuration
+title: NotKaskus
+short_logo: NotKaskus (Paul)
+description: >
   Hobby JavaScript-Developer creating API, Bots and NodeJS Projects.
-url: https://paul.is-a.dev # Site base URL
+baseurl: ""
+url: https://paul.is-a.dev
 
-source: site
-
+### Author configuration
 author:
   name: NotKaskus
-  github: NotKaskus # GitHub username, used for GitHub icon on the top right
-  email: kaskus45@proton.me # Used for email icon on the top right
-  homepage: https://paul.is-a.dev # This links to your name in post meta
-  twitter: TrueKaskus # Twitter username, used for Twitter Card Analytics
+  github: NotKaskus
+  email: kaskus45@proton.me
+  homepage: https://paul.is-a.dev
+  twitter: TrueKaskus
   discord: https://discord.gg/XcbMwAyUJ9
   instagram: https://www.instagram.com/its_paul2006/
 
-disqus_name: # Setting this will turn on Disqus comments
-g_track_id: # Google Analytics tracking ID (e.g. UA-000000-2), setting this will turn on Google Analytics
+# Google Analytics and Disqus comments, this setting will turn on Google Analytics and Disqus comments.
+# disqus_name: 
+# g_track_id: 
 
+### Build settings
 markdown: kramdown
-timezone: Asia/Manila # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-defaults: # Recommended defaults, you may set your own
+timezone: Asia/Manila
+plugins:
+  - jekyll-seo-tag
+defaults:
   -
     scope:
       path: _posts
@@ -52,26 +61,21 @@ compress_html:
   profile: false
   startings: [html, head, body]
 
-rss: false # RSS feed icon on or off
-dark_mode: true # Dark mode icon
-project_card_style: modal # Choose from masonry, modal, and flat
+rss: false
+dark_mode: true
+project_card_style: modal
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+### Exclude from processing.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
