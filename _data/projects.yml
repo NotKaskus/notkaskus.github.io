@@ -6,8 +6,8 @@
     <p>The Nowa API was created to replace other anime image API providers for my personal projects.
     It is publicly available for everyone to use.</p>
     <br>
-    <p>Backend: <b>"[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)"</b>, <b>"[ExpressJS](https://expressjs.com/)"</b>, and <b>"[Enmap](https://enmap.evie.dev/)"</b><br>
-    Deployment: <b>"[DanBot Hosting](https://discord.com/invite/DBH)"</b></p>
+    <p>Backend: <b><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></b>, <b><a href="https://expressjs.com/">ExpressJS</a></b>, and <b><a href="https://enmap.evie.dev/">Enmap</a></b><br>
+    Deployment: <b><a href="https://discord.com/invite/DBH>DanBot Hosting</a></b></p>
   action_buttons: >
     <a href="https://nowa.ml" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-external-link-alt"></i>&nbsp Visit</a>
   tags: [api, projects]
