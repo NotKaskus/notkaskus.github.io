@@ -291,9 +291,10 @@ a.logo:hover {
 }
 
 /* Custom Cursor */
-* {
+/** {
   cursor: none;
 }
+*/
 
 .cursor {
   width: 35px;
