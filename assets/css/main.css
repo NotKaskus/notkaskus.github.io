@@ -291,7 +291,7 @@ a.logo:hover {
 }
 
 /* Custom Cursor */
-{
+* {
   cursor: none;
 }
 
