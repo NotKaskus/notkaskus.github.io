@@ -295,6 +295,12 @@ a.logo:hover {
     font-size: 100%;
     line-height: 1.6;
   }
+  
+  cursor,
+  cursor2,
+  cursorinnerhover {
+    display: none;
+  }
 
   .wrapper {
     width: 90%;
