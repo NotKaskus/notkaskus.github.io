@@ -247,6 +247,45 @@ a.logo:hover {
   font-size: 130%;
 }
 
+/* =Custom Cursor */ /**********************************/
+* {
+  cursor: none;
+}
+
+.cursor {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 1px solid black;
+  transition: all 200ms ease-out;
+  z-index: 1051;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  transform: translate(calc(-50% + 15px), -50%);
+}
+
+.cursor2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: black;
+  opacity: .3;
+  z-index: 1051;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: width .3s, height .3s, opacity .3s;
+}
+
+.cursorinnerhover {
+  width: 35px;
+  height: 35px;
+  opacity: .5;
+}
+
+
 /* =Small screen */ /*************************************************************/
 @media (max-width: 600px) {
   p,
@@ -288,44 +327,6 @@ a.logo:hover {
 .card .badge {
   position: relative;
   z-index: 2;
-}
-
-/* Custom Cursor */
-* {
-  cursor: none;
-}
-
-.cursor {
-  width: 35px;
-  height: 35px;
-  border-radius: 100%;
-  border: 1px solid black;
-  transition: all 200ms ease-out;
-  z-index: 1051;
-  position: fixed;
-  pointer-events: none;
-  left: 0;
-  top: 0;
-  transform: translate(calc(-50% + 15px), -50%);
-}
-
-.cursor2 {
-  width: 20px;
-  height: 20px;
-  border-radius: 100%;
-  background-color: black;
-  opacity: .3;
-  z-index: 1051;
-  position: fixed;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  transition: width .3s, height .3s, opacity .3s;
-}
-
-.cursorinnerhover {
-  width: 35px;
-  height: 35px;
-  opacity: .5;
 }
 
 /* Card hover effect */
