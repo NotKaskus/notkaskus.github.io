@@ -291,10 +291,9 @@ a.logo:hover {
 }
 
 /* Custom Cursor */
-/** {
+{
   cursor: none;
 }
-*/
 
 .cursor {
   z-index: 999 !important;
