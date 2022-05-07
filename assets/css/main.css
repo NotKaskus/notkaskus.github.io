@@ -297,12 +297,14 @@ a.logo:hover {
 */
 
 .cursor {
+  z-index: 999 !important;
   width: 35px;
   height: 35px;
   border-radius: 100%;
   border: 1px solid black;
   transition: all 200ms ease-out;
-  position: fixed;
+  z-index: 2000;
+  position: relative;
   pointer-events: none;
   left: 0;
   top: 0;
@@ -310,12 +312,13 @@ a.logo:hover {
 }
 
 .cursor2 {
+  z-index: 999 !important;
   width: 20px;
   height: 20px;
   border-radius: 100%;
   background-color: black;
   opacity: .3;
-  position: fixed;
+  position: fixed !important;
   transform: translate(-50%, -50%);
   pointer-events: none;
   transition: width .3s, height .3s, opacity .3s;
