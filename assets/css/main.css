@@ -287,19 +287,14 @@ a.logo:hover {
 
 
 /* =Small screen */ /*************************************************************/
-@media (max-width: 600px) {
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
   p,
   ul,
   ol,
   dl {
     font-size: 100%;
     line-height: 1.6;
-  }
-  
-  cursor,
-  cursor2,
-  cursorinnerhover {
-    display: none;
   }
 
   .wrapper {
