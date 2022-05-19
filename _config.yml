@@ -25,7 +25,7 @@ twitter:
 logo: favicon.png
 
 # Google Analytics and Disqus comments, this setting will turn on Google Analytics and Disqus comments.
-# disqus_name: 
+disqus_name: notkaskus
 g_track_id: G-MHF08CJFCZ
 
 ### Build settings
