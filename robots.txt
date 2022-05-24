@@ -2,14 +2,7 @@
 layout: null
 index: false
 ---
-User-agent: *
-Disallow:
+User-Agent: *
+Allow: /
 
 Sitemap: {{ site.url }}/sitemap.xml
-
-    -----
-   | . . |
-    -----
-  \--|-|--/
-     | |
-  |-------|
