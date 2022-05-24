@@ -62,7 +62,7 @@ compress_html:
     envs: [local]
   blanklines: true
   profile: false
-  startings: [html, head, body]
+  startings: []
 
 rss: false
 dark_mode: true
