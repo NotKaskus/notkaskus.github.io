@@ -65,8 +65,11 @@ compress_html:
   blanklines: true
   profile: false
   startings: []
+  
+feed:
+  tags: true
 
-rss: false
+rss: true
 dark_mode: true
 project_card_style: modal
 
