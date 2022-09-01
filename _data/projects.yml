@@ -3,6 +3,9 @@
   img_src: /assets/img/photo-fb5cbc00-3f829f3f7382.png
   description_less: Nowa API is a collection of high-quality random anime images..
   description_more: >
+    <b><p>For the time being I won't be able to maintain this project because our school has started and I have to study hard.</p></b>
+    <br>
+    <br>
     <p>The Nowa API was created to replace other anime image API providers for my personal projects.
     It is publicly available for everyone to use.</p>
     <br>
@@ -11,3 +14,17 @@
   action_buttons: >
     <a href="https://nowa.ml" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-external-link-alt"></i>&nbsp Visit</a>
   tags: [api, projects]
+
+- name: Mystery
+  id: mystery
+  img_src: /assets/img/kcir-and-llor.png
+  description_less: A very mysterious project that i will post soon
+  description_more: >
+    <br>
+    <br>
+    <p>This needs some more filling... The description of my mystery project that [SOON]</p>
+    <br>
+    <p>Backend: <b><a href="https://deno.land/">Deno</a></b><br></p>
+  action_buttons: >
+    <a href="https://r.mtdv.me/articles/mystery4" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-external-link-alt"></i>&nbsp Visit</a>
+  tags: [projects]
