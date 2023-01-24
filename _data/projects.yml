@@ -1,14 +1,12 @@
 - name: Nowa API
   id: nowa-api
   img_src: /assets/img/photo-fb5cbc00-3f829f3f7382.png
-  description_less: Nowa API is a collection of high-quality random anime images..
+  description_less: Nowa API is a collection of high-quality random anime images.
   description_more: >
-    <b><p>For the time being I won't be able to maintain this project because our school has started and I have to study hard.</p></b>
-    <br>
-    <br>
     <p>The Nowa API was created to replace other anime image API providers for my personal projects.
     It is publicly available for everyone to use.</p>
     <br>
+    <b><p align='center'>For the time being I won't be able to maintain this project because our school has started and I have to study hard.</p></b>
     <p>Backend: <b><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></b>, <b><a href="https://expressjs.com/">ExpressJS</a></b>, and <b><a href="https://enmap.evie.dev/">Enmap</a></b><br>
     Deployment: <b><a href="https://discord.com/invite/DBH">DanBot Hosting</a></b></p>
   action_buttons: >
