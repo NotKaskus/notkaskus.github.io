@@ -1,7 +1,7 @@
 ---
 layout: page
 full_logo: true
-title: Hey, I'm Paul Andrew ✌️
+title: Hey, I'm Paul Andrew <i class="far fa-hand-peace"></i>
 subtitle: 
 description: Hobby JavaScript-Developer creating API, Bots and NodeJS Projects
 sitemap:
