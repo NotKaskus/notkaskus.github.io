@@ -10,7 +10,7 @@
     <p>Backend: <b><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></b>, <b><a href="https://expressjs.com/">ExpressJS</a></b>, and <b><a href="https://enmap.evie.dev/">Enmap</a></b><br>
     Deployment: <b><a href="https://discord.com/invite/DBH">DanBot Hosting</a></b></p>
   action_buttons: >
-    <a href="https://nowa.ml" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-external-link-alt"></i>&nbsp Visit</a>
+    <a href="https://nowa.ml" target="_blank" class="btn btn-dark mb-1"><i class="fa fa-external-link-square"></i>&nbsp Visit</a>
   tags: [api, projects]
 
 - name: Mystery
