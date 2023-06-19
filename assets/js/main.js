@@ -10,14 +10,15 @@ function render_dark_mode_icon(darkmode, id) {
 
   console.log(x);
   if (darkmode.isActivated()) {
-    document.getElementById(id).classList.remove("fa-sun");
-    document.getElementById(id).classList.add("fa-moon");
+    document.getElementById(id).classList.remove("bru");
+    document.getElementById(id).classList.add("bru");
     for (i = 0; i < x.length; i++) {
       x[i].style["mix-blend-mode"] = "difference";
     }
   } else {
-    document.getElementById(id).classList.remove("fa-moon");
-    document.getElementById(id).classList.add("fa-sun");
+    document.getElementById(id).classList.remove("bru");
+    document.getElementById(id).classList.add("bru");
+    console.log(id)
     for (i = 0; i < x.length; i++) {
       x[i].style["mix-blend-mode"] = "normal";
     }
