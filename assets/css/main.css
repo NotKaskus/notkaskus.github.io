@@ -248,9 +248,9 @@ a.logo:hover {
 }
 
 /* =Custom Cursor */ /**********************************/
-/* * {
+* {
   cursor: none;
-} */
+}
 
 .cursor {
   width: 35px;
@@ -258,7 +258,6 @@ a.logo:hover {
   border-radius: 100%;
   border: 1px solid black;
   transition: all 200ms ease-out;
-  z-index: 1051;
   position: fixed;
   pointer-events: none;
   left: 0;
@@ -267,12 +266,11 @@ a.logo:hover {
 }
 
 .cursor2 {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   border-radius: 100%;
   background-color: black;
   opacity: .3;
-  z-index: 1051;
   position: fixed;
   transform: translate(-50%, -50%);
   pointer-events: none;
